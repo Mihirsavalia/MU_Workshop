@@ -1,9 +1,4 @@
-var a=13;
-var b=18;
-var c=a+b;
-console.log("A = "+a);
-console.log("B = "+b);
-console.log("Sum = "+c);
+
 
 //Load module
 
@@ -13,7 +8,8 @@ var http = require('http');
 http.createServer(function(req,res){
 
     //print message
-    res.end(''+c);
+    res.end('<h1> Savalia</h1>');
 
-}).listen(3000);
-console.log("This is server side code http://127.0.0.1:3000");
+
+}).listen(4000);
+console.log("This is server side code http://127.0.0.1:4000");
